@@ -1,0 +1,128 @@
+.singlecountry{
+    margin: 0%;
+    display:flex ;
+    width: 100%;
+    height: 90Vh;
+}
+.changesingle{
+    color: aliceblue;
+}
+.changesingle b{
+    color: aliceblue;
+}
+.Flag{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    padding-left: 100px;
+}
+#image1{
+    width: 500px;
+    height: 400px;
+    margin-top:0px;
+}
+.button1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 110px;
+    border: 1px solid black;
+}
+.changebutton{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.details_1{
+    height: 40%;
+    padding-top: 200px;
+    padding-left: 20px;
+
+}
+.details_2{
+    height: 30%;
+    display: flex;
+    align-items: center;
+
+}
+.details_3{
+    height: 20%;
+
+}
+h4{
+    display: inline;
+    inline-size: 200px;
+    margin-left: 20px;
+    color: rgb(93, 92, 92);
+    width: 400px;
+}
+p{
+    color: rgb(93, 92, 92);
+
+}
+
+
+@media screen and (min-width:0px) and (max-width:540px)
+{
+    .singlecountry{
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+    }
+    .Flag{
+        width: 100%;
+        height: 450px;
+        padding: 0;
+        align-items:flex-start;
+        padding-left: 40px;
+        
+    }
+    #image1{
+        height: 300px;
+        width: 400px;
+        margin-top: 5px;
+        margin-bottom: 40px;
+    }
+    .details{
+        width: 100%;
+    }
+    .details_1{
+        padding: 0px;
+        height: 100px;
+        padding-left: 45px;
+        padding-top: 20px;
+    }
+    .details_2{
+        flex-direction: column;
+        height: 300px;
+        align-items: flex-start;
+        padding-left: 15px;
+    }  
+.subdetails1{
+    width: 100%;
+    height: 50%;
+}
+.details_3{
+    padding-left: 15px;
+}
+.button1{
+    margin: 0%;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    
+}
+    
+
+}
